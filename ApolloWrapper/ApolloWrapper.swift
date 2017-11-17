@@ -8,6 +8,6 @@
 
 import Foundation
 
-class ApolloWrapper:ApolloClient{
+class ApolloWrapper{
     
 }
