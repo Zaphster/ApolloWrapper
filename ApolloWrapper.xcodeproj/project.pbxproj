@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F617DC01FBF93DB0007FB55 /* ApolloWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F617DB61FBF93DA0007FB55 /* ApolloWrapper.framework */; };
+		6F617DC51FBF93DB0007FB55 /* ApolloWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F617DC41FBF93DB0007FB55 /* ApolloWrapperTests.swift */; };
+		6F617DC71FBF93DB0007FB55 /* ApolloWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F617DB91FBF93DB0007FB55 /* ApolloWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F617DD11FBF94740007FB55 /* ApolloWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F617DD01FBF94740007FB55 /* ApolloWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F617DC11FBF93DB0007FB55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F617DAD1FBF93DA0007FB55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F617DB51FBF93DA0007FB55;
+			remoteInfo = ApolloWrapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F617DB61FBF93DA0007FB55 /* ApolloWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ApolloWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F617DB91FBF93DB0007FB55 /* ApolloWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApolloWrapper.h; sourceTree = "<group>"; };
+		6F617DBA1FBF93DB0007FB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F617DBF1FBF93DB0007FB55 /* ApolloWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApolloWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F617DC41FBF93DB0007FB55 /* ApolloWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloWrapperTests.swift; sourceTree = "<group>"; };
+		6F617DC61FBF93DB0007FB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F617DD01FBF94740007FB55 /* ApolloWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloWrapper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F617DB21FBF93DA0007FB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F617DBC1FBF93DB0007FB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F617DC01FBF93DB0007FB55 /* ApolloWrapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F617DAC1FBF93DA0007FB55 = {
+			isa = PBXGroup;
+			children = (
+				6F617DB81FBF93DA0007FB55 /* ApolloWrapper */,
+				6F617DC31FBF93DB0007FB55 /* ApolloWrapperTests */,
+				6F617DB71FBF93DA0007FB55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F617DB71FBF93DA0007FB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F617DB61FBF93DA0007FB55 /* ApolloWrapper.framework */,
+				6F617DBF1FBF93DB0007FB55 /* ApolloWrapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F617DB81FBF93DA0007FB55 /* ApolloWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				6F617DB91FBF93DB0007FB55 /* ApolloWrapper.h */,
+				6F617DBA1FBF93DB0007FB55 /* Info.plist */,
+				6F617DD01FBF94740007FB55 /* ApolloWrapper.swift */,
+			);
+			path = ApolloWrapper;
+			sourceTree = "<group>";
+		};
+		6F617DC31FBF93DB0007FB55 /* ApolloWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F617DC41FBF93DB0007FB55 /* ApolloWrapperTests.swift */,
+				6F617DC61FBF93DB0007FB55 /* Info.plist */,
+			);
+			path = ApolloWrapperTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F617DB31FBF93DA0007FB55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F617DC71FBF93DB0007FB55 /* ApolloWrapper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F617DB51FBF93DA0007FB55 /* ApolloWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F617DCA1FBF93DB0007FB55 /* Build configuration list for PBXNativeTarget "ApolloWrapper" */;
+			buildPhases = (
+				6F617DB11FBF93DA0007FB55 /* Sources */,
+				6F617DB21FBF93DA0007FB55 /* Frameworks */,
+				6F617DB31FBF93DA0007FB55 /* Headers */,
+				6F617DB41FBF93DA0007FB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApolloWrapper;
+			productName = ApolloWrapper;
+			productReference = 6F617DB61FBF93DA0007FB55 /* ApolloWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F617DBE1FBF93DB0007FB55 /* ApolloWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F617DCD1FBF93DB0007FB55 /* Build configuration list for PBXNativeTarget "ApolloWrapperTests" */;
+			buildPhases = (
+				6F617DBB1FBF93DB0007FB55 /* Sources */,
+				6F617DBC1FBF93DB0007FB55 /* Frameworks */,
+				6F617DBD1FBF93DB0007FB55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F617DC21FBF93DB0007FB55 /* PBXTargetDependency */,
+			);
+			name = ApolloWrapperTests;
+			productName = ApolloWrapperTests;
+			productReference = 6F617DBF1FBF93DB0007FB55 /* ApolloWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F617DAD1FBF93DA0007FB55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Cameron Barker Training";
+				TargetAttributes = {
+					6F617DB51FBF93DA0007FB55 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					6F617DBE1FBF93DB0007FB55 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6F617DB01FBF93DA0007FB55 /* Build configuration list for PBXProject "ApolloWrapper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F617DAC1FBF93DA0007FB55;
+			productRefGroup = 6F617DB71FBF93DA0007FB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F617DB51FBF93DA0007FB55 /* ApolloWrapper */,
+				6F617DBE1FBF93DB0007FB55 /* ApolloWrapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F617DB41FBF93DA0007FB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F617DBD1FBF93DB0007FB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F617DB11FBF93DA0007FB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F617DD11FBF94740007FB55 /* ApolloWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F617DBB1FBF93DB0007FB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F617DC51FBF93DB0007FB55 /* ApolloWrapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F617DC21FBF93DB0007FB55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F617DB51FBF93DA0007FB55 /* ApolloWrapper */;
+			targetProxy = 6F617DC11FBF93DB0007FB55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F617DC81FBF93DB0007FB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F617DC91FBF93DB0007FB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F617DCB1FBF93DB0007FB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ApolloWrapper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = quarkworks.cameronbarker.training.ApolloWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F617DCC1FBF93DB0007FB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ApolloWrapper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = quarkworks.cameronbarker.training.ApolloWrapper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F617DCE1FBF93DB0007FB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApolloWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = quarkworks.cameronbarker.training.ApolloWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F617DCF1FBF93DB0007FB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ApolloWrapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = quarkworks.cameronbarker.training.ApolloWrapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F617DB01FBF93DA0007FB55 /* Build configuration list for PBXProject "ApolloWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F617DC81FBF93DB0007FB55 /* Debug */,
+				6F617DC91FBF93DB0007FB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F617DCA1FBF93DB0007FB55 /* Build configuration list for PBXNativeTarget "ApolloWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F617DCB1FBF93DB0007FB55 /* Debug */,
+				6F617DCC1FBF93DB0007FB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F617DCD1FBF93DB0007FB55 /* Build configuration list for PBXNativeTarget "ApolloWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F617DCE1FBF93DB0007FB55 /* Debug */,
+				6F617DCF1FBF93DB0007FB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F617DAD1FBF93DA0007FB55 /* Project object */;
+}
